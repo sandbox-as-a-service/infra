@@ -1,0 +1,22 @@
+# Local .terraform directory
+.terraform/
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# If you're using workspaces
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Override files (used for local changes only, shouldn't be committed)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
